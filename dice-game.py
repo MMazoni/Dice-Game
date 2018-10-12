@@ -1,10 +1,11 @@
 import random
 import time
 
+#1- start the dice game and roll by pressing enter or return.
+
 input("Press ENTER to roll the dice")
 
 while True:
-#1- start the dice game and roll by pressing enter or return.
 
     player_dice = random.randint(1, 12)
 
